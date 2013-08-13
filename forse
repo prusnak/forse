@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+import analyzers
+
+from analyzers import Analyzers
+
+a = Analyzers()
+
+a.run('data', 'data.db')
+
+a.stats()
